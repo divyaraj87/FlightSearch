@@ -1,0 +1,83 @@
+{
+  "stats": {
+    "tests": 7,
+    "passes": 2,
+    "failures": 5,
+    "duration": 14325,
+    "start": "2021-09-15T05:29:14.860Z",
+    "end": "2021-09-15T05:29:29.185Z"
+  },
+  "failures": [
+    {
+      "title": "Radio – Radio Page – should render Radio",
+      "fullTitle": "Radio",
+      "duration": 5400,
+      "errorCount": 1,
+      "error": "1 failure:\r\n* Error: Enzyme Internal Error: unknown composite type undefined\n    at compositeTypeToNodeType (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:36:13)\n    at Object.getNode (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:222:21)\n    at new ShallowWrapper (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme\\src\\ShallowWrapper.js:412:43)\n    at shallow (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme\\src\\shallow.js:10:10)\n    at Object.<anonymous> (F:\\FlightSearch\\FlightSearch\\src\\__tests__\\Radio\\Radio.test.js:27:21)\n    at Object.asyncJestLifecycle (F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:58:37)\n    at F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:28:19)\n    at F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    },
+    {
+      "title": "SearchResultTwo – SearchResultTwo Page – should render SearchResultTwo",
+      "fullTitle": "SearchResultTwo",
+      "duration": 5496,
+      "errorCount": 1,
+      "error": "1 failure:\r\n* TypeError: Cannot read property 'destSelected' of undefined\n    at SearchResultTwo.render (F:\\FlightSearch\\FlightSearch\\src\\components\\SearchResultTwo.js:8:25)\n    at ReactShallowRenderer._mountClassComponent (F:\\FlightSearch\\FlightSearch\\node_modules\\react-test-renderer\\cjs\\react-test-renderer-shallow.development.js:883:37)\n    at ReactShallowRenderer.render (F:\\FlightSearch\\FlightSearch\\node_modules\\react-test-renderer\\cjs\\react-test-renderer-shallow.development.js:800:14)\n    at fn (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:210:53)\n    at withSetStateAllowed (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme-adapter-utils\\src\\Utils.js:100:18)\n    at Object.render (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:210:18)\n    at new ShallowWrapper (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme\\src\\ShallowWrapper.js:411:22)\n    at shallow (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme\\src\\shallow.js:10:10)\n    at Object.<anonymous> (F:\\FlightSearch\\FlightSearch\\src\\__tests__\\SearchResultTwo\\SearchResultTwo.test.js:27:21)\n    at Object.asyncJestLifecycle (F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:58:37)\n    at F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:28:19)\n    at F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    },
+    {
+      "title": "ErrorBoundary – ErrorBoundary Page – should render ErrorBoundary",
+      "fullTitle": "ErrorBoundary",
+      "duration": 5943,
+      "errorCount": 1,
+      "error": "1 failure:\r\n* TypeError: Cannot read property 'getState' of undefined\n    at F:\\FlightSearch\\FlightSearch\\node_modules\\react-redux\\lib\\components\\Provider.js:35:18\n    at Object.useMemo (F:\\FlightSearch\\FlightSearch\\node_modules\\react-test-renderer\\cjs\\react-test-renderer-shallow.development.js:539:23)\n    at useMemo (F:\\FlightSearch\\FlightSearch\\node_modules\\react\\cjs\\react.development.js:1532:21)\n    at Provider (F:\\FlightSearch\\FlightSearch\\node_modules\\react-redux\\lib\\components\\Provider.js:34:42)\n    at ReactShallowRenderer.render (F:\\FlightSearch\\FlightSearch\\node_modules\\react-test-renderer\\cjs\\react-test-renderer-shallow.development.js:829:32)\n    at fn (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:210:53)\n    at withSetStateAllowed (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme-adapter-utils\\src\\Utils.js:100:18)\n    at Object.render (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:210:18)\n    at new ShallowWrapper (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme\\src\\ShallowWrapper.js:411:22)\n    at shallow (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme\\src\\shallow.js:10:10)\n    at Object.<anonymous> (F:\\FlightSearch\\FlightSearch\\src\\__tests__\\ErrorBoundary\\ErrorBoundary.test.js:31:21)\n    at Object.asyncJestLifecycle (F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:58:37)\n    at F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:28:19)\n    at F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    },
+    {
+      "title": "SearchResultOne – SearchResultOne Page – should render SearchResultOne",
+      "fullTitle": "SearchResultOne",
+      "duration": 868,
+      "errorCount": 1,
+      "error": "1 failure:\r\n* TypeError: Cannot read property 'destSelected' of undefined\n    at SearchResultOne.render (F:\\FlightSearch\\FlightSearch\\src\\components\\SearchResultOne.js:8:25)\n    at ReactShallowRenderer._mountClassComponent (F:\\FlightSearch\\FlightSearch\\node_modules\\react-test-renderer\\cjs\\react-test-renderer-shallow.development.js:883:37)\n    at ReactShallowRenderer.render (F:\\FlightSearch\\FlightSearch\\node_modules\\react-test-renderer\\cjs\\react-test-renderer-shallow.development.js:800:14)\n    at fn (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:210:53)\n    at withSetStateAllowed (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme-adapter-utils\\src\\Utils.js:100:18)\n    at Object.render (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:210:18)\n    at new ShallowWrapper (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme\\src\\ShallowWrapper.js:411:22)\n    at shallow (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme\\src\\shallow.js:10:10)\n    at Object.<anonymous> (F:\\FlightSearch\\FlightSearch\\src\\__tests__\\SearchResultOne\\SearchResultOne.test.js:27:21)\n    at Object.asyncJestLifecycle (F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:58:37)\n    at F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:28:19)\n    at F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    },
+    {
+      "title": "SubmitButton – SubmitButton Page – should render SubmitButton",
+      "fullTitle": "SubmitButton",
+      "duration": 859,
+      "errorCount": 1,
+      "error": "1 failure:\r\n* Error: Enzyme Internal Error: unknown composite type undefined\n    at compositeTypeToNodeType (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:36:13)\n    at Object.getNode (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme-adapter-react-15\\src\\ReactFifteenAdapter.js:222:21)\n    at new ShallowWrapper (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme\\src\\ShallowWrapper.js:412:43)\n    at shallow (F:\\FlightSearch\\FlightSearch\\node_modules\\enzyme\\src\\shallow.js:10:10)\n    at Object.<anonymous> (F:\\FlightSearch\\FlightSearch\\src\\__tests__\\SubmitButton\\SubmitButton.test.js:27:21)\n    at Object.asyncJestLifecycle (F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:58:37)\n    at F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:28:19)\n    at F:\\FlightSearch\\FlightSearch\\node_modules\\jest-jasmine2\\build\\queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    },
+    {
+      "title": "F:\\FlightSearch\\FlightSearch\\src\\__tests__\\SourceComponent\\SourceComponent_test_js",
+      "fullTitle": "F:\\FlightSearch\\FlightSearch\\src\\__tests__\\SourceComponent\\SourceComponent_test_js",
+      "duration": 0,
+      "errorCount": 1,
+      "error": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    \u001b[31m\u001b[1mConfiguration error\u001b[22m:\u001b[39m\n    \u001b[31m\u001b[39m\n    \u001b[31mCould not locate module \u001b[1mreact-bootstrap-typeahead/css/Typeahead.css\u001b[22m mapped as:\u001b[39m\n    \u001b[31m\u001b[1mF:\\FlightSearch\\FlightSearch\\test\\__mocks__\\styleMock.js\u001b[22m.\u001b[39m\n    \u001b[31m\u001b[39m\n    \u001b[31mPlease check your configuration for these entries:\u001b[39m\n    \u001b[31m{\u001b[39m\n    \u001b[31m  \"moduleNameMapper\": {\u001b[39m\n    \u001b[31m    \"/^.+\\.(css|scss)$/\": \"\u001b[1mF:\\FlightSearch\\FlightSearch\\test\\__mocks__\\styleMock.js\u001b[22m\"\u001b[39m\n    \u001b[31m  },\u001b[39m\n    \u001b[31m  \"resolver\": \u001b[1mundefined\u001b[22m\u001b[39m\n    \u001b[31m}\u001b[39m\n\n    \u001b[0m \u001b[90m  5 |\u001b[39m \u001b[36mimport\u001b[39m options \u001b[36mfrom\u001b[39m \u001b[32m'./SourceData'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m  6 |\u001b[39m \u001b[36mimport\u001b[39m { \u001b[33mTypeahead\u001b[39m } \u001b[36mfrom\u001b[39m \u001b[32m'react-bootstrap-typeahead'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m'react-bootstrap-typeahead/css/Typeahead.css'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m  8 |\u001b[39m \u001b[36mimport\u001b[39m { \u001b[33mSOURCE\u001b[39m } \u001b[36mfrom\u001b[39m \u001b[32m'../constants'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m  9 |\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 10 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mclass\u001b[39m \u001b[33mSourceComponent\u001b[39m \u001b[36mextends\u001b[39m \u001b[33mComponent\u001b[39m {\u001b[0m\n\n      \u001b[2mat createNoMappedModuleFoundError (\u001b[22mnode_modules/jest-resolve/build/index.js\u001b[2m:551:17)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22msrc/components/SourceComponent.js\u001b[2m:7:1)\u001b[22m\n"
+    },
+    {
+      "title": "F:\\FlightSearch\\FlightSearch\\src\\__tests__\\OneWayDate\\OneWayDate_test_js",
+      "fullTitle": "F:\\FlightSearch\\FlightSearch\\src\\__tests__\\OneWayDate\\OneWayDate_test_js",
+      "duration": 0,
+      "errorCount": 1,
+      "error": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    \u001b[31m\u001b[1mConfiguration error\u001b[22m:\u001b[39m\n    \u001b[31m\u001b[39m\n    \u001b[31mCould not locate module \u001b[1mreact-datepicker/dist/react-datepicker.css\u001b[22m mapped as:\u001b[39m\n    \u001b[31m\u001b[1mF:\\FlightSearch\\FlightSearch\\test\\__mocks__\\styleMock.js\u001b[22m.\u001b[39m\n    \u001b[31m\u001b[39m\n    \u001b[31mPlease check your configuration for these entries:\u001b[39m\n    \u001b[31m{\u001b[39m\n    \u001b[31m  \"moduleNameMapper\": {\u001b[39m\n    \u001b[31m    \"/^.+\\.(css|scss)$/\": \"\u001b[1mF:\\FlightSearch\\FlightSearch\\test\\__mocks__\\styleMock.js\u001b[22m\"\u001b[39m\n    \u001b[31m  },\u001b[39m\n    \u001b[31m  \"resolver\": \u001b[1mundefined\u001b[22m\u001b[39m\n    \u001b[31m}\u001b[39m\n\n    \u001b[0m \u001b[90m 2 |\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 3 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[33mDatePicker\u001b[39m \u001b[36mfrom\u001b[39m \u001b[32m\"react-datepicker\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 4 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"react-datepicker/dist/react-datepicker.css\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m   |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 5 |\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 6 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mdefault\u001b[39m \u001b[36mfunction\u001b[39m \u001b[33mTableDatePicker\u001b[39m() {\u001b[0m\n    \u001b[0m \u001b[90m 7 |\u001b[39m  \u001b[36mconst\u001b[39m [startDate\u001b[33m,\u001b[39m setStartDate] \u001b[33m=\u001b[39m useState(\u001b[36mnew\u001b[39m \u001b[33mDate\u001b[39m())\u001b[33m;\u001b[39m\u001b[0m\n\n      \u001b[2mat createNoMappedModuleFoundError (\u001b[22mnode_modules/jest-resolve/build/index.js\u001b[2m:551:17)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22msrc/components/OneWayDate.js\u001b[2m:4:1)\u001b[22m\n"
+    },
+    {
+      "title": "F:\\FlightSearch\\FlightSearch\\src\\__tests__\\DestinationComponent\\DestinationComponent_test_js",
+      "fullTitle": "F:\\FlightSearch\\FlightSearch\\src\\__tests__\\DestinationComponent\\DestinationComponent_test_js",
+      "duration": 0,
+      "errorCount": 1,
+      "error": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    \u001b[31m\u001b[1mConfiguration error\u001b[22m:\u001b[39m\n    \u001b[31m\u001b[39m\n    \u001b[31mCould not locate module \u001b[1mreact-bootstrap-typeahead/css/Typeahead.css\u001b[22m mapped as:\u001b[39m\n    \u001b[31m\u001b[1mF:\\FlightSearch\\FlightSearch\\test\\__mocks__\\styleMock.js\u001b[22m.\u001b[39m\n    \u001b[31m\u001b[39m\n    \u001b[31mPlease check your configuration for these entries:\u001b[39m\n    \u001b[31m{\u001b[39m\n    \u001b[31m  \"moduleNameMapper\": {\u001b[39m\n    \u001b[31m    \"/^.+\\.(css|scss)$/\": \"\u001b[1mF:\\FlightSearch\\FlightSearch\\test\\__mocks__\\styleMock.js\u001b[22m\"\u001b[39m\n    \u001b[31m  },\u001b[39m\n    \u001b[31m  \"resolver\": \u001b[1mundefined\u001b[22m\u001b[39m\n    \u001b[31m}\u001b[39m\n\n    \u001b[0m \u001b[90m  5 |\u001b[39m \u001b[36mimport\u001b[39m options \u001b[36mfrom\u001b[39m \u001b[32m'./SourceData'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m  6 |\u001b[39m \u001b[36mimport\u001b[39m { \u001b[33mTypeahead\u001b[39m } \u001b[36mfrom\u001b[39m \u001b[32m'react-bootstrap-typeahead'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m'react-bootstrap-typeahead/css/Typeahead.css'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m  8 |\u001b[39m \u001b[36mimport\u001b[39m { \u001b[33mDEST\u001b[39m } \u001b[36mfrom\u001b[39m \u001b[32m'../constants'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m  9 |\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 10 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mclass\u001b[39m \u001b[33mDestinationComponent\u001b[39m \u001b[36mextends\u001b[39m \u001b[33mComponent\u001b[39m {\u001b[0m\n\n      \u001b[2mat createNoMappedModuleFoundError (\u001b[22mnode_modules/jest-resolve/build/index.js\u001b[2m:551:17)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22msrc/components/DestinationComponent.js\u001b[2m:7:1)\u001b[22m\n"
+    }
+  ],
+  "passes": [
+    {
+      "title": "Actions – call fieldLoad",
+      "fullTitle": "Actions",
+      "duration": 691,
+      "errorCount": 0
+    },
+    {
+      "title": "ActionTypes – should have the same value as the variable name",
+      "fullTitle": "ActionTypes",
+      "duration": 661,
+      "errorCount": 0
+    }
+  ],
+  "skipped": []
+}

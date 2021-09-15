@@ -1,0 +1,154 @@
+html{
+    //background: #f2f2f2 url(../images/verticalBg.png) center top repeat-y;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: hidden;
+    #root{
+        background: #f7efef;
+        height: 100%;
+        overflow-y: scroll; 
+        /* display: flex;
+        justify-content: center;
+        position: relative;
+        background: #f7efef;
+        height: 100%;
+        overflow-y: scroll; */
+        .container{
+            margin: 0 auto;
+            width: 80%;
+            background: #e0e0e0;
+            .TripContainer{
+                font-size: 22px;
+                padding: 10px 0;
+            }
+            .city{
+                font-size: 18px;
+                padding: 10px 10px;
+                display: flex;  
+                @media screen and (max-width: 768px){
+                    display: block;
+                }             
+            }
+            
+            input[type="text"] {
+                height: 25px;
+                width: 300px;
+                @media screen and (max-width: 425px){
+                    width: 265px;
+                }
+            }
+            .rbt-menu{
+                width: 295px !important;
+                border: 1px solid rgb(204, 204, 204);
+                padding: 5px;
+                background: #fff;
+                z-index: 999;
+            }
+            .SourceContainer{
+                margin: 0 25px;
+                
+            }
+            .DestContainer{
+               
+                @media screen and (max-width: 768px){
+                    margin: 0 25px;
+                }
+            }
+            .start{
+                margin: 0 35px;
+            }
+            .end{
+                margin-left: -50px;
+                @media screen and (max-width: 768px){
+                    margin-left: 38px;
+                }
+            }
+            table{
+                border: 1px solid #ccc;
+                width: 100%;
+                padding: 10px;
+                font-size: 16px;
+                text-align: center;
+            }
+            thead{
+                font-weight: bold;
+            }
+            td {
+                border: 1px solid #ccc;
+            }
+            tr {
+                height: 40px;
+            }
+            .submitBtn{
+                height: 40px;
+                width: 200px;
+                margin: 40px 0px;
+                text-align: center;
+                margin-left: 480px;
+                background: #dac3c3;
+                color: #000;
+                font-size: 18px;
+                font-weight: bold;
+                @media screen and (max-width: 768px){
+                    margin-left: 40px;
+                }
+            }
+            .error{
+                padding: 10px 20px;
+                font-size: 14px;
+                color: red;
+            }
+            .dateContainer{
+                display: flex;
+                @media screen and (max-width: 768px){
+                    display: block;
+                }
+            }
+            h1{
+                text-align: center;
+                padding: 10px;
+            }
+            .dropdown-item{
+                display: flex;
+            }
+ /*            margin: 0 auto;
+            padding: 5px 20px;
+            border: 1px solid #c1b5b5;
+            background: #e0e0e0;
+            box-shadow: 0px 0px 10px 10px #aaaaaa;            
+            position: absolute;
+            top: 10%;            
+            height: 420px;
+            .progressContainer{
+                margin: 50px 10px;
+                .containerStyles{
+                    height: 20px;
+                    width: 100%;
+                    background: #adadaa;
+                    border-radius: 50px;
+                    margin:10px 2px;
+                    .labelStyles{
+                        padding: 5;
+                        color: #fff;
+                        font-weight: bold
+                    }
+                }
+            }
+            .controlContainer{
+                display: flex;
+                justify-content: center;
+                #mySelect, button{
+                    height: 40px;
+                    margin: 10px;
+                }
+            } */
+            
+        }
+    }
+}
